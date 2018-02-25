@@ -15,6 +15,7 @@
 		D2464E99204291C10072B723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2464E98204291C10072B723 /* main.m */; };
 		D2464EA3204291C10072B723 /* UIScroViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2464EA2204291C10072B723 /* UIScroViewDemoTests.m */; };
 		D2464EAE204291C10072B723 /* UIScroViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2464EAD204291C10072B723 /* UIScroViewDemoUITests.m */; };
+		D2464EBF204293870072B723 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D2464EBE204293870072B723 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D2464EA9204291C10072B723 /* UIScroViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScroViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2464EAD204291C10072B723 /* UIScroViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScroViewDemoUITests.m; sourceTree = "<group>"; };
 		D2464EAF204291C10072B723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2464EBE204293870072B723 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +103,12 @@
 		D2464E88204291C10072B723 /* UIScroViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D2464E89204291C10072B723 /* AppDelegate.h */,
-				D2464E8A204291C10072B723 /* AppDelegate.m */,
 				D2464E8C204291C10072B723 /* ViewController.h */,
 				D2464E8D204291C10072B723 /* ViewController.m */,
+				D2464EBE204293870072B723 /* 1.png */,
+				D2464EBB204291D50072B723 /* Others */,
 				D2464E8F204291C10072B723 /* Main.storyboard */,
-				D2464E92204291C10072B723 /* Assets.xcassets */,
-				D2464E94204291C10072B723 /* LaunchScreen.storyboard */,
 				D2464E97204291C10072B723 /* Info.plist */,
-				D2464E98204291C10072B723 /* main.m */,
 			);
 			path = UIScroViewDemo;
 			sourceTree = "<group>";
@@ -130,6 +129,18 @@
 				D2464EAF204291C10072B723 /* Info.plist */,
 			);
 			path = UIScroViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		D2464EBB204291D50072B723 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D2464E89204291C10072B723 /* AppDelegate.h */,
+				D2464E8A204291C10072B723 /* AppDelegate.m */,
+				D2464E92204291C10072B723 /* Assets.xcassets */,
+				D2464E94204291C10072B723 /* LaunchScreen.storyboard */,
+				D2464E98204291C10072B723 /* main.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2464E96204291C10072B723 /* LaunchScreen.storyboard in Resources */,
+				D2464EBF204293870072B723 /* 1.png in Resources */,
 				D2464E93204291C10072B723 /* Assets.xcassets in Resources */,
 				D2464E91204291C10072B723 /* Main.storyboard in Resources */,
 			);
